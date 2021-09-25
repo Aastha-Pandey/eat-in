@@ -1,0 +1,29 @@
+.Caret {
+  caret-color: #f6ad55;
+}
+.teal-blue {
+  background-color: #367588;
+}
+.margin-left {
+  margin-left: 270px;
+}
+.form-control:focus + .form-label,
+.form-control:not(:placeholder-shown) + .form-label {
+  transform: translateY(-3.8em) scale(0.8) translateX(-2em);
+  color: rgb(168, 167, 167);
+  font-weight: 500;
+}
+.form-control:focus + .form-labelerror,
+.form-control:not(:placeholder-shown) + .form-labelerror {
+  transform: translateY(-3.8em) scale(0.8) translateX(-2em);
+  color: rgb(185, 19, 19);
+  font-weight: 500;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
